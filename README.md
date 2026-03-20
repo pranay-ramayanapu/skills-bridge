@@ -12,7 +12,7 @@
 ## ⏱️ Estimated Time Spent
 
 ** Video Explanation Link
-https://drive.google.com/file/d/1q6fLdwo-te5w_30jtATkjw_Fnkh5y1D1/view?usp=sharing
+https://youtu.be/rlRTqo3--mU?si=aQBc_tDqgbndHn-N
 
 Approximately **5 hours**
 
