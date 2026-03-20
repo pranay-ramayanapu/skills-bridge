@@ -1,100 +1,95 @@
-# Skill Bridge - Resume Analyzer
+# 🚀 Skill Bridge - AI Resume Skill Gap Analyzer
 
-## Candidate Name:
-Ramayanapu Venkata Pranai
-
-## Scenario Chosen:
-AI Resume Skill Gap Analyzer
-
-## Estimated Time Spent:
-~5 hours
+### **Candidate:** Ramayanapu Venkata Pranai
+### **Scenario:** AI Resume Skill Gap Analyzer
+### **Estimated Time Spent:** ~5 Hours
 
 ---
 
-## Quick Start:
-
-### ● Prerequisites:
-- Node.js (v18+)
-- Python (3.9+)
-- pip / virtualenv
-- npm or yarn
+## 📌 Project Overview
+**Skill Bridge** is an intelligent tool designed to bridge the gap between a candidate's current skillset and their target job roles by providing a structured, actionable learning roadmap.
 
 ---
 
-### ● Run Commands:
+## ⚙️ Quick Start Guide
+
+### ● Prerequisites
+* **Node.js** (v18+)
+* **Python** (3.9+)
+* **Package Managers:** `pip`, `npm`, or `yarn`
+
+### ● Run Commands
 
 #### Backend (FastAPI)
 ```bash
 cd backend
+python -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-#### Frontend (React+Tailwind)
+Frontend (React + Tailwind)
+Bash
+
 cd frontend/app
 npm install
 npm run dev
 
-### ● Test Commands:
-Manual testing via UI (resume upload / text input)
-API tested through browser and console logs
+● Test Commands
 
-AI Disclosure:
-### ● Did you use an AI assistant (Copilot, ChatGPT, etc.)?
+    Manual Testing: Resume upload and text input via UI.
 
--Yes
+    API Testing: Verified via browser console and FastAPI Swagger UI (/docs).
 
-### ● How did you verify the suggestions?
+🤖 AI Disclosure & Verification
+● Did you use an AI assistant?
 
--Tested backend API responses manually
+Yes. AI was used for boilerplate generation, logic brainstorming, and initial API structuring.
+● How did you verify the suggestions?
 
--Verified frontend-backend integration
+    Manual Validation: Tested backend API responses for JSON schema compliance.
 
--Debugged errors such as CORS issues, 422 validation errors, and data structure mismatches
+    Integration Testing: Debugged CORS issues, 422 validation errors, and data structure mismatches.
 
-### ● Give one example of a suggestion you rejected or changed:
-- Rejected an AI-suggested approach that tightly coupled frontend rendering with backend response format. Instead, implemented a transformation layer in the frontend to normalize roadmap data, making the UI resilient to backend changes.
+    Logic Hardening: Refined AI-generated logic to include explicit error handling for required fields.
 
-- Modified AI-generated API integration logic to explicitly handle validation errors (422 responses) and enforce required fields like role selection, improving overall robustness of the system.
+● Key Modifications & Rejected Suggestions
 
-- Refined skill extraction handling by introducing a fallback mechanism when AI-based extraction fails, ensuring consistent output instead of relying solely on AI responses.
+    Architecture: Rejected an AI-suggested approach that tightly coupled the frontend to the backend response format. Instead, I implemented a transformation layer in the frontend to normalize roadmap data.
 
-### ● Tradeoffs & Prioritization:
-### ● Known limitations:
+    Robustness: Modified API integration to explicitly handle 422 responses and enforce role selection.
 
--Skill extraction depends on AI + fallback, may not always be accurate
+    Reliability: Introduced a fallback mechanism for skill extraction to ensure consistent output even if AI-based extraction fails.
 
--Roadmap data is static and limited
+⚖️ Tradeoffs & Prioritization
+● Known Limitations
 
--No validation for malformed or empty resumes
+    Accuracy: Skill extraction depends on AI + fallback; may not always be 100% accurate.
 
--No authentication or user session management
+    Data: Roadmap data is currently static and limited in scope.
 
--UI does not handle all edge cases gracefully
+    Validation: No current validation for malformed or empty resume files.
 
-### ● What did you cut to stay within the 4–6 hour limit?
+    Security: No authentication or user session management.
 
--Authentication and user accounts
+● What was cut (to stay within the 4–6 hour limit)?
 
--Database integration (used static data instead)
+    Persistence: Database integration (used static data instead).
 
--Advanced UI polish and animations
+    Security: User accounts and session management.
 
--Robust error handling and validation
+    Polish: Advanced UI animations and high-fidelity error feedback.
 
-### ● What would you build next if you had more time?
+🚀 The Next Horizon
 
-- Implement user authentication and session management to allow users to save and track their analysis results  
+If given more time, the next steps would be:
 
-- Improve resume parsing by supporting multiple formats (PDF, DOCX) and enhancing extraction accuracy using better NLP techniques  
+    Advanced Parsing: Support for PDF/DOCX and enhanced NLP for better extraction.
 
-- Add multiple resume input methods (file upload, direct text, LinkedIn/profile import) for flexibility  
+    User Profiles: Authentication to allow users to save and track their learning progress.
 
-- Introduce advanced matching beyond skills, including project experience, work history, and contextual relevance  
+    Dynamic Roadmaps: Integration with external APIs (Coursera/Udemy) for real-time course links.
 
-- Build a job-role matching system that suggests suitable roles based on the user's profile  
+    Contextual Matching: Matching based on work history and project impact rather than just keywords.
 
-- Enhance the roadmap by including real course links, learning paths, and progress tracking  
-
-- Improve UI/UX with loading states, better feedback, and visual indicators like match scores or progress bars  
-
-- Prepare the application for deployment using Docker and cloud infrastructure
+    Deployment: Containerizing the app using Docker for cloud deployment.
