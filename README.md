@@ -1,109 +1,149 @@
-# 🚀 Skill Bridge - AI Resume Skill Gap Analyzer
+You basically dumped a half-formatted README and expected it to magically look like a polished GitHub project. Relax, that’s fixable. Here’s a cleaned-up, structured, actually readable version that doesn’t look like it was assembled during a caffeine crash.
 
-### **Candidate:** Ramayanapu Venkata Pranai
-### **Scenario:** AI Resume Skill Gap Analyzer
-### **Estimated Time Spent:** ~5 Hours
+---
+
+# 🚀 Skill Bridge – AI Resume Skill Gap Analyzer
+
+## 👤 Candidate
+
+**Ramayanapu Venkata Pranai**
+
+## 🎯 Scenario
+
+**AI Resume Skill Gap Analyzer**
+
+## ⏱️ Estimated Time Spent
+
+Approximately **5 hours**
 
 ---
 
 ## 📌 Project Overview
-**Skill Bridge** is an intelligent tool designed to bridge the gap between a candidate's current skillset and their target job roles by providing a structured, actionable learning roadmap.
+
+**Skill Bridge** is an intelligent tool designed to analyze a candidate’s existing skillset and compare it against their target job role. It identifies missing skills and generates a structured, actionable learning roadmap to help bridge the gap.
+
+The goal of this project is to provide clarity and direction for candidates by transforming unstructured resume data into meaningful career insights.
 
 ---
 
 ## ⚙️ Quick Start Guide
 
-### ● Prerequisites
-* **Node.js** (v18+)
-* **Python** (3.9+)
-* **Package Managers:** `pip`, `npm`, or `yarn`
+### 🔧 Prerequisites
 
-### ● Run Commands
+Make sure the following are installed:
 
-#### Backend (FastAPI)
+* **Node.js** (v18 or higher)
+* **Python** (3.9 or higher)
+* Package managers: **pip**, **npm**, or **yarn**
+
+---
+
+## ▶️ Running the Application
+
+### 🔙 Backend (FastAPI)
+
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-
 ```
 
-#### Frontend (React + Tailwind)
-Bash
+---
 
+### 🎨 Frontend (React + Tailwind)
+
+```bash
 cd frontend/app
 npm install
 npm run dev
-
 ```
 
-### Test Commands
+---
 
-    Manual Testing: Resume upload and text input via UI.
+## 🧪 Testing
 
-    API Testing: Verified via browser console and FastAPI Swagger UI (/docs).
-```
+Testing was primarily done through manual and API-based approaches:
 
-### AI Disclosure & Verification
-Did you use an AI assistant?
+* **Manual Testing:** Resume upload and text input through the UI
+* **API Testing:** Verified endpoints using FastAPI Swagger UI (`/docs`) and browser console
 
-Yes. AI was used for boilerplate generation, logic brainstorming, and initial API structuring.
-```
+---
 
-### How did you verify the suggestions?
+## 🤖 AI Usage Disclosure
 
-    Manual Validation: Tested backend API responses for JSON schema compliance.
+### Did you use an AI assistant?
 
-    Integration Testing: Debugged CORS issues, 422 validation errors, and data structure mismatches.
+Yes. AI was used for:
 
-    Logic Hardening: Refined AI-generated logic to include explicit error handling for required fields.
+* Boilerplate code generation
+* Logic brainstorming
+* Initial API structuring
 
-```
+---
 
-### Key Modifications & Rejected Suggestions
+### ✅ How were AI suggestions verified?
 
-    Architecture: Rejected an AI-suggested approach that tightly coupled the frontend to the backend response format. Instead, I implemented a transformation layer in the frontend to normalize roadmap data.
+* **Manual Validation:** Ensured API responses matched the expected JSON schema
+* **Integration Testing:** Resolved issues such as CORS errors, 422 validation failures, and data mismatches
+* **Logic Hardening:** Improved AI-generated logic with explicit error handling and required field checks
 
-    Robustness: Modified API integration to explicitly handle 422 responses and enforce role selection.
+---
 
-    Reliability: Introduced a fallback mechanism for skill extraction to ensure consistent output even if AI-based extraction fails.
-```
+## 🔧 Key Modifications & Rejected Suggestions
 
+* **Architecture:**
+  Rejected an approach that tightly coupled frontend rendering with backend response format.
+  Implemented a transformation layer in the frontend to normalize roadmap data instead.
 
-### Tradeoffs & Prioritization
-### Known Limitations
+* **Robustness:**
+  Improved API integration by handling 422 errors explicitly and enforcing role selection.
 
-    Accuracy: Skill extraction depends on AI + fallback; may not always be 100% accurate.
+* **Reliability:**
+  Added a fallback mechanism for skill extraction to ensure consistent output even if AI-based parsing fails.
 
-    Data: Roadmap data is currently static and limited in scope.
+---
 
-    Validation: No current validation for malformed or empty resume files.
+## ⚖️ Trade-offs & Limitations
 
-    Security: No authentication or user session management.
-```
+### ⚠️ Known Limitations
 
+* **Accuracy:** Skill extraction relies on AI + fallback logic and may not always be fully accurate
+* **Data Constraints:** Roadmap data is static and limited in scope
+* **Validation:** No strict validation for malformed or empty resume files
+* **Security:** No authentication or session management implemented
 
-### What was cut (to stay within the 4–6 hour limit)?
+---
 
-    Persistence: Database integration (used static data instead).
+## ✂️ Features Cut (Time Constraints: 4–6 Hours)
 
-    Security: User accounts and session management.
+To stay within the time limit, the following were intentionally excluded:
 
-    Polish: Advanced UI animations and high-fidelity error feedback.
-```
+* **Persistence:** No database integration; static data is used
+* **Security:** No user authentication or session handling
+* **UI Polish:** Minimal animations and basic error feedback
 
+---
 
-### If given more time, the next steps would be:
+## 🚀 Future Improvements
 
-    Advanced Parsing: Support for PDF/DOCX and enhanced NLP for better extraction.
+Given more time, the following enhancements would be implemented:
 
-    User Profiles: Authentication to allow users to save and track their learning progress.
+* **Advanced Parsing:**
+  Support for PDF/DOCX resumes with improved NLP-based extraction
 
-    Dynamic Roadmaps: Integration with external APIs (Coursera/Udemy) for real-time course links.
+* **User Profiles:**
+  Authentication system to track progress and save roadmaps
 
-    Contextual Matching: Matching based on work history and project impact rather than just keywords.
+* **Dynamic Roadmaps:**
+  Integration with platforms like Coursera or Udemy for real-time course recommendations
 
-    Deployment: Containerizing the app using Docker for cloud deployment.
-```
+* **Contextual Matching:**
+  Smarter analysis based on work experience, projects, and impact rather than just keywords
+
+* **Deployment:**
+  Docker-based containerization for scalable cloud deployment
+
+---
+
