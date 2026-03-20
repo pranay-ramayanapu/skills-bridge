@@ -1,6 +1,3 @@
-You basically dumped a half-formatted README and expected it to magically look like a polished GitHub project. Relax, that’s fixable. Here’s a cleaned-up, structured, actually readable version that doesn’t look like it was assembled during a caffeine crash.
-
----
 
 # 🚀 Skill Bridge – AI Resume Skill Gap Analyzer
 
