@@ -27,19 +27,15 @@ python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-```
-```
-
 
 ```
-```
+
 #### Frontend (React + Tailwind)
 Bash
 
 cd frontend/app
 npm install
 npm run dev
-```
 
 ```
 
@@ -50,14 +46,12 @@ npm run dev
     API Testing: Verified via browser console and FastAPI Swagger UI (/docs).
 ```
 
-```
 ### AI Disclosure & Verification
-● Did you use an AI assistant?
+Did you use an AI assistant?
 
 Yes. AI was used for boilerplate generation, logic brainstorming, and initial API structuring.
 ```
 
-```
 ### How did you verify the suggestions?
 
     Manual Validation: Tested backend API responses for JSON schema compliance.
@@ -65,7 +59,6 @@ Yes. AI was used for boilerplate generation, logic brainstorming, and initial AP
     Integration Testing: Debugged CORS issues, 422 validation errors, and data structure mismatches.
 
     Logic Hardening: Refined AI-generated logic to include explicit error handling for required fields.
-```
 
 ```
 
@@ -78,12 +71,8 @@ Yes. AI was used for boilerplate generation, logic brainstorming, and initial AP
     Reliability: Introduced a fallback mechanism for skill extraction to ensure consistent output even if AI-based extraction fails.
 ```
 
-```
 
 ### Tradeoffs & Prioritization
-```
-
-```
 ### Known Limitations
 
     Accuracy: Skill extraction depends on AI + fallback; may not always be 100% accurate.
@@ -95,7 +84,6 @@ Yes. AI was used for boilerplate generation, logic brainstorming, and initial AP
     Security: No authentication or user session management.
 ```
 
-```
 
 ### What was cut (to stay within the 4–6 hour limit)?
 
@@ -106,7 +94,6 @@ Yes. AI was used for boilerplate generation, logic brainstorming, and initial AP
     Polish: Advanced UI animations and high-fidelity error feedback.
 ```
 
-```
 
 ### If given more time, the next steps would be:
 
@@ -119,5 +106,4 @@ Yes. AI was used for boilerplate generation, logic brainstorming, and initial AP
     Contextual Matching: Matching based on work history and project impact rather than just keywords.
 
     Deployment: Containerizing the app using Docker for cloud deployment.
-```
 ```
