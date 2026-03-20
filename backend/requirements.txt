@@ -1,0 +1,7 @@
+python-multipart
+pdfplumber
+google-genai
+pytest
+fastapi
+uvicorn
+python-dotenv
