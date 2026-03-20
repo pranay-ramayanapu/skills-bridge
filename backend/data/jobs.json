@@ -1,0 +1,62 @@
+[
+  {
+    "role": "Data Engineer",
+    "skills": ["Python", "SQL", "ETL", "Azure", "Apache Spark", "Data Warehousing", "Airflow"]
+  },
+  {
+    "role": "Backend Developer",
+    "skills": ["Node.js", "REST APIs", "Databases", "Authentication", "Microservices"]
+  },
+  {
+    "role": "Frontend Developer",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Responsive Design", "Redux"]
+  },
+  {
+    "role": "Full Stack Developer",
+    "skills": ["JavaScript", "React", "Node.js", "SQL", "REST APIs", "Docker"]
+  },
+  {
+    "role": "DevOps Engineer",
+    "skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Linux", "Terraform"]
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "skills": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Model Deployment", "MLOps"]
+  },
+  {
+    "role": "Data Analyst",
+    "skills": ["SQL", "Excel", "Power BI", "Tableau", "Data Visualization", "Statistics"]
+  },
+  {
+    "role": "Cloud Engineer",
+    "skills": ["AWS", "Azure", "GCP", "Networking", "Security", "Infrastructure as Code"]
+  },
+  {
+    "role": "Software Engineer",
+    "skills": ["Java", "Python", "OOP", "Data Structures", "Algorithms", "System Design"]
+  },
+  {
+    "role": "Mobile App Developer",
+    "skills": ["Flutter", "Kotlin", "Swift", "REST APIs", "UI/UX", "Firebase"]
+  },
+  {
+    "role": "Database Administrator",
+    "skills": ["SQL", "Database Tuning", "Backup & Recovery", "PostgreSQL", "MySQL", "Performance Optimization"]
+  },
+  {
+    "role": "Cybersecurity Engineer",
+    "skills": ["Network Security", "Penetration Testing", "Cryptography", "Firewalls", "SIEM"]
+  },
+  {
+    "role": "AI Engineer",
+    "skills": ["Python", "Deep Learning", "NLP", "Computer Vision", "Transformers", "Model Optimization"]
+  },
+  {
+    "role": "QA Engineer",
+    "skills": ["Test Automation", "Selenium", "JUnit", "Manual Testing", "Bug Tracking"]
+  },
+  {
+    "role": "Site Reliability Engineer",
+    "skills": ["Monitoring", "Logging", "Kubernetes", "Incident Management", "Performance Tuning"]
+  }
+]

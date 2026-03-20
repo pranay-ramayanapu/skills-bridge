@@ -1,0 +1,149 @@
+{
+  "spark": [
+    {
+      "title": "Apache Spark Basics",
+      "duration": "6 hours",
+      "type": "Free"
+    }
+  ],
+  "etl": [
+    {
+      "title": "ETL Fundamentals",
+      "duration": "5 hours",
+      "type": "Free"
+    }
+  ],
+  "rest apis": [
+    {
+      "title": "REST API Design",
+      "duration": "4 hours",
+      "type": "Free"
+    }
+  ],
+  "databases": [
+    {
+      "title": "Database Fundamentals",
+      "duration": "6 hours",
+      "type": "Free"
+    }
+  ],
+  "node.js": [
+    {
+      "title": "Node.js Basics",
+      "duration": "5 hours",
+      "type": "Free"
+    }
+  ],
+  "postgresql": [
+    {
+      "title": "PostgreSQL for Beginners",
+      "duration": "5 hours",
+      "type": "Free"
+    }
+  ],
+  "mysql": [
+    {
+      "title": "MySQL Crash Course",
+      "duration": "4 hours",
+      "type": "Free"
+    }
+  ],
+  "mongodb": [
+    {
+      "title": "MongoDB Basics",
+      "duration": "5 hours",
+      "type": "Free"
+    }
+  ],
+  "springboot": [
+    {
+      "title": "Spring Boot Fundamentals",
+      "duration": "6 hours",
+      "type": "Free"
+    }
+  ],
+  "django": [
+    {
+      "title": "Django for Beginners",
+      "duration": "7 hours",
+      "type": "Free"
+    }
+  ],
+  "reactjs": [
+    {
+      "title": "ReactJS Essentials",
+      "duration": "6 hours",
+      "type": "Free"
+    }
+  ],
+  "docker": [
+    {
+      "title": "Docker Basics",
+      "duration": "4 hours",
+      "type": "Free"
+    }
+  ],
+  "kubernetes": [
+    {
+      "title": "Kubernetes Introduction",
+      "duration": "6 hours",
+      "type": "Free"
+    }
+  ],
+  "python": [
+    {
+      "title": "Python Programming",
+      "duration": "8 hours",
+      "type": "Free"
+    }
+  ],
+  "java": [
+    {
+      "title": "Java Fundamentals",
+      "duration": "7 hours",
+      "type": "Free"
+    }
+  ],
+  "javascript": [
+    {
+      "title": "JavaScript Basics",
+      "duration": "5 hours",
+      "type": "Free"
+    }
+  ],
+  "git": [
+    {
+      "title": "Git & GitHub Basics",
+      "duration": "3 hours",
+      "type": "Free"
+    }
+  ],
+  "bash": [
+    {
+      "title": "Bash Scripting Basics",
+      "duration": "3 hours",
+      "type": "Free"
+    }
+  ],
+  "oauth2": [
+    {
+      "title": "OAuth2 Authentication Basics",
+      "duration": "4 hours",
+      "type": "Free"
+    }
+  ],
+  "c++": [
+    {
+      "title": "C++ Fundamentals",
+      "duration": "6 hours",
+      "type": "Free"
+    }
+  ],
+  "c": [
+    {
+      "title": "C Programming Basics",
+      "duration": "5 hours",
+      "type": "Free"
+    }
+  ]
+}
